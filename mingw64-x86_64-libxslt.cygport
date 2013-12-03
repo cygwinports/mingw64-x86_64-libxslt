@@ -3,7 +3,7 @@ inherit cross
 
 NAME="mingw64-x86_64-libxslt"
 VERSION=1.1.28
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="GNOME XSLT library for Win64 toolchain"
 DESCRIPTION="Libxslt is the XSLT C library developed for the Gnome project.
