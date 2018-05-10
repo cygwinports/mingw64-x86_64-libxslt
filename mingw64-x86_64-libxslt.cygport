@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-libxslt"
-VERSION=1.1.29
+VERSION=1.1.32
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNOME XSLT library for Win64 toolchain"
@@ -16,7 +16,6 @@ SRC_URI="ftp://xmlsoft.org/libxml2/libxslt-${VERSION}.tar.gz"
 SRC_DIR="libxslt-${VERSION}"
 PATCH_URI="
 	mirror://portage/dev-libs/libxslt/files/libxslt.m4-libxslt-1.1.26.patch
-	1.1.28-cygwin-libtool245.patch
 "
 
 DIFF_EXCLUDES='libxslt-export.c libxslt-py.* libxsltclass.* *xsltconfig.h'
